@@ -45,9 +45,12 @@ namespace _01._World_Tour
                         
                     }
                 }
+
                 Console.WriteLine(stops);
                 commands = Console.ReadLine().Split(":");
+
             }
+
             Console.WriteLine($"Ready for world tour! Planned stops: {stops}");
         }
     }
